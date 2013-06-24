@@ -251,16 +251,7 @@ static OSStatus InputRenderCallback(
                                        &inputAvailable),
 			   "Couldn't get current audio input available prop");
 	if (! inputAvailable) {
-		UIAlertView *noInputAlert =
-		[[UIAlertView alloc] initWithTitle:@"No audio input"
-								   message:@"No audio input device is currently attached"
-								  delegate:nil
-						 cancelButtonTitle:@"OK"
-						 otherButtonTitles:nil];
-		[noInputAlert show];
-		// TODO: do we have to die? couldn't we tolerate an incoming connection
-		// TODO: need another example to show audio routes?
-		return;
+		NSLog(@"Warinign: Input for audio is not available");
 	}
     
 	// inspect the hardware input rate

@@ -50,6 +50,7 @@
 		542F85031778AF8A0058EAD5 /* AudioFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileWriter.h; sourceTree = "<group>"; };
 		542F85041778AF8A0058EAD5 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
 		542F85081778B0710058EAD5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		542F850A1778B1F90058EAD5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		547A71391778AE940023AE3C /* libAudiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAudiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		547A713C1778AE940023AE3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		547A71401778AE940023AE3C /* AudiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudiOS-Prefix.pch"; sourceTree = "<group>"; };
@@ -133,6 +134,7 @@
 		547A713F1778AE940023AE3C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				542F850A1778B1F90058EAD5 /* README.md */,
 				547A71401778AE940023AE3C /* AudiOS-Prefix.pch */,
 			);
 			name = "Supporting Files";

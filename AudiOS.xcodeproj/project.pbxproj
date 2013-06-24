@@ -11,6 +11,9 @@
 		542F85061778AF8A0058EAD5 /* AudioFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 542F85001778AF8A0058EAD5 /* AudioFileWriter.m */; };
 		542F85071778AF8A0058EAD5 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 542F85011778AF8A0058EAD5 /* AudioPlayer.m */; };
 		542F85091778B0710058EAD5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542F85081778B0710058EAD5 /* AudioToolbox.framework */; };
+		542F85481778B3CF0058EAD5 /* AudioFileReader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 542F85021778AF8A0058EAD5 /* AudioFileReader.h */; };
+		542F85491778B3CF0058EAD5 /* AudioFileWriter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 542F85031778AF8A0058EAD5 /* AudioFileWriter.h */; };
+		542F854A1778B3CF0058EAD5 /* AudioPlayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 542F85041778AF8A0058EAD5 /* AudioPlayer.h */; };
 		547A713D1778AE940023AE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A713C1778AE940023AE3C /* Foundation.framework */; };
 		547A714C1778AE940023AE3C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A714B1778AE940023AE3C /* SenTestingKit.framework */; };
 		547A714E1778AE940023AE3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A714D1778AE940023AE3C /* UIKit.framework */; };
@@ -37,6 +40,9 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				542F85481778B3CF0058EAD5 /* AudioFileReader.h in CopyFiles */,
+				542F85491778B3CF0058EAD5 /* AudioFileWriter.h in CopyFiles */,
+				542F854A1778B3CF0058EAD5 /* AudioPlayer.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

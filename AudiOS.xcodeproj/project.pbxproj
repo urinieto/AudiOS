@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		542F85051778AF8A0058EAD5 /* AudioFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 542F84FF1778AF8A0058EAD5 /* AudioFileReader.m */; };
+		542F85061778AF8A0058EAD5 /* AudioFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 542F85001778AF8A0058EAD5 /* AudioFileWriter.m */; };
+		542F85071778AF8A0058EAD5 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 542F85011778AF8A0058EAD5 /* AudioPlayer.m */; };
 		547A713D1778AE940023AE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A713C1778AE940023AE3C /* Foundation.framework */; };
-		547A71421778AE940023AE3C /* AudiOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 547A71411778AE940023AE3C /* AudiOS.h */; };
-		547A71441778AE940023AE3C /* AudiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 547A71431778AE940023AE3C /* AudiOS.m */; };
 		547A714C1778AE940023AE3C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A714B1778AE940023AE3C /* SenTestingKit.framework */; };
 		547A714E1778AE940023AE3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A714D1778AE940023AE3C /* UIKit.framework */; };
 		547A714F1778AE940023AE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A713C1778AE940023AE3C /* Foundation.framework */; };
@@ -35,18 +36,21 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				547A71421778AE940023AE3C /* AudiOS.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		542F84FF1778AF8A0058EAD5 /* AudioFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFileReader.m; sourceTree = "<group>"; };
+		542F85001778AF8A0058EAD5 /* AudioFileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFileWriter.m; sourceTree = "<group>"; };
+		542F85011778AF8A0058EAD5 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		542F85021778AF8A0058EAD5 /* AudioFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileReader.h; sourceTree = "<group>"; };
+		542F85031778AF8A0058EAD5 /* AudioFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileWriter.h; sourceTree = "<group>"; };
+		542F85041778AF8A0058EAD5 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
 		547A71391778AE940023AE3C /* libAudiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAudiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		547A713C1778AE940023AE3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		547A71401778AE940023AE3C /* AudiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudiOS-Prefix.pch"; sourceTree = "<group>"; };
-		547A71411778AE940023AE3C /* AudiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudiOS.h; sourceTree = "<group>"; };
-		547A71431778AE940023AE3C /* AudiOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudiOS.m; sourceTree = "<group>"; };
 		547A714A1778AE940023AE3C /* AudiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		547A714B1778AE940023AE3C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		547A714D1778AE940023AE3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -111,8 +115,12 @@
 		547A713E1778AE940023AE3C /* AudiOS */ = {
 			isa = PBXGroup;
 			children = (
-				547A71411778AE940023AE3C /* AudiOS.h */,
-				547A71431778AE940023AE3C /* AudiOS.m */,
+				542F84FF1778AF8A0058EAD5 /* AudioFileReader.m */,
+				542F85001778AF8A0058EAD5 /* AudioFileWriter.m */,
+				542F85011778AF8A0058EAD5 /* AudioPlayer.m */,
+				542F85021778AF8A0058EAD5 /* AudioFileReader.h */,
+				542F85031778AF8A0058EAD5 /* AudioFileWriter.h */,
+				542F85041778AF8A0058EAD5 /* AudioPlayer.h */,
 				547A713F1778AE940023AE3C /* Supporting Files */,
 			);
 			path = AudiOS;
@@ -243,7 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				547A71441778AE940023AE3C /* AudiOS.m in Sources */,
+				542F85051778AF8A0058EAD5 /* AudioFileReader.m in Sources */,
+				542F85061778AF8A0058EAD5 /* AudioFileWriter.m in Sources */,
+				542F85071778AF8A0058EAD5 /* AudioPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +413,7 @@
 				547A71601778AE940023AE3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		547A71611778AE940023AE3C /* Build configuration list for PBXNativeTarget "AudiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +422,7 @@
 				547A71631778AE940023AE3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
